@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-df = pd.read_csv('/home/aftab//iris_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/AhmedJagirdar/ahmedasif/main/iris_data.csv')
 
 # Histogram for sepal_length
 fig1 = px.histogram(df, x='sepal_length', title='Distribution of Sepal Length', nbins=30)
